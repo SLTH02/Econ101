@@ -1,0 +1,21 @@
+Pseudocode for Econ101
+
+Some facts: 
+- flipping cards = clicking buttons (Each button is a different JButton object)
+ 
+* GamePage
+    - before go to QuizPage, wait for one second, tell the user it's directing to another page
+    - if got all right, reset everything first(before going to questions).
+* QuizPage class: scan text file, put questions on. appears button: understood. continue game
+    constr.
+    step 1: image. Question graph + text
+        // Image array. First 10 correct answer is A, 
+            next 10 are B, etc. 
+        // randomly choose an index & put the image. keep 
+            track which index it is for radio buttons
+    step 2: radiobutton
+        //if incorrect, give another question
+
+
+
+
